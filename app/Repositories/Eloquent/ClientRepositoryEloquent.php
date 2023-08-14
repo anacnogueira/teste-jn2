@@ -6,7 +6,6 @@ use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
 use App\Contracts\Repositories\ClientRepository;
 use App\Models\Client;
-use App\Validators\ClientValidator;
 
 /**
  * Class ClientRepositoryEloquent.
