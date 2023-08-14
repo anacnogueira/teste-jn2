@@ -18,4 +18,11 @@ class ClientService
     {
         return $this->repository->create($data);
     }
+
+    public function update(array $data, $id): Client
+    {
+        return $this->repository->update($data, $id);
+    }
+
+
 }
