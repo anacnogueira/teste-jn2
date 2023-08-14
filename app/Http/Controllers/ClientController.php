@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Client;
 use Illuminate\Http\Request;
+use App\Http\Requests\ClientStoreRequest;
 
 class ClientController extends Controller
 {
@@ -12,7 +13,7 @@ class ClientController extends Controller
         //
     }
 
-    public function store(Request $request)
+    public function store(ClientStoreRequest $request)
     {
        //
     }
