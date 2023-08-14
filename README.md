@@ -47,7 +47,7 @@ O nosso desafio consiste na criação de um sistema de controle de clientes e su
  </table>
 
 3. Regras
-   • Você deve construir o seu ambiente utilizando o docker e docker-compose (você pode utilizar uma receita de ambiente pronta, encontrada na internet);
-   • Você deve utilizar um **framework PHP** de sua escolha;
-   • Você será avaliado pela lógica e leitura do seu código, seguindo os princípios **SOLID**, **PSR-4** e **PSR-12**.
-   • Após o final do desenvolvimento, crie um repositório público do GIT, hospede o seu código e nos envie o endereço do repositório.
+    - Você deve construir o seu ambiente utilizando o docker e docker-compose (você pode utilizar uma receita de ambiente pronta, encontrada na internet);
+    - Você deve utilizar um **framework PHP** de sua escolha;
+    - Você será avaliado pela lógica e leitura do seu código, seguindo os princípios **SOLID**, **PSR-4** e **PSR-12**.
+    - Após o final do desenvolvimento, crie um repositório público do GIT, hospede o seu código e nos envie o endereço do repositório.
