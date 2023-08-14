@@ -16,9 +16,11 @@ class ClientController extends Controller
         $this->service = $service;
     }
 
-    public function index()
+    public function index($numero)
     {
-        //
+        $clients = $this->service->FindByLastNumber($numero);
+
+        return $clients;
     }
 
     public function store(ClientStoreRequest $request)
