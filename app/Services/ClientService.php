@@ -29,5 +29,10 @@ class ClientService
         $this->repository->find($id)->delete();
     }
 
+    public function findById($id): Client
+    {
+        return $this->repository->find($id);
+    }
+
 
 }

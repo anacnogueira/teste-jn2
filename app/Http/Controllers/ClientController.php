@@ -28,7 +28,7 @@ class ClientController extends Controller
 
     public function show($id)
     {
-        //
+        return $this->service->findById($id);
     }
 
     public function update(ClientUpdateRequest $request, $id)
