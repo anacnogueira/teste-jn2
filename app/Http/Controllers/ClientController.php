@@ -26,7 +26,7 @@ class ClientController extends Controller
        return $this->service->create($request->all());
     }
 
-    public function show(Client $client)
+    public function show($id)
     {
         //
     }
@@ -36,8 +36,10 @@ class ClientController extends Controller
         return $this->service->update($request->all(), $id);
     }
 
-    public function destroy(Client $client)
+    public function destroy($id)
     {
-        //
+        $this->service->delete($id);
+
+        return response('', 204);
     }
 }

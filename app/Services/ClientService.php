@@ -24,5 +24,10 @@ class ClientService
         return $this->repository->update($data, $id);
     }
 
+    public function delete($id):void
+    {
+        $this->repository->find($id)->delete();
+    }
+
 
 }

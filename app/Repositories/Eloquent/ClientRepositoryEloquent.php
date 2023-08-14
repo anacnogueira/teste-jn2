@@ -23,9 +23,7 @@ class ClientRepositoryEloquent extends BaseRepository implements ClientRepositor
     public function model()
     {
         return Client::class;
-    }
-
-    
+    }    
 
     /**
      * Boot up the repository, pushing criteria
